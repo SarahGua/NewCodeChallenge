@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: rgb(16, 226, 0);
+  font-family: cursive;
+  font-size: 15px;
+}
+
+img{
+  width: 150px;
+  height: 70px;
+  margin-top: 90px;
+}
+
+.title{
+  font-size: 23px;
+}
+
+.opzioni{
+  background-color: rgb(16, 226, 0);
+  display: inline-block;
+  width: 650px;
+  padding-top: 5px;
+  padding-bottom: 9px;
+}
+
+#barra1{
+  border: 10px solid;
+  color: rgb(232, 183, 2);
+  width: 300px;
+  border-radius: 5px;
+  margin: inherit;
+}
+
+#barra2{
+  border: 10px solid;
+  color: green;
+  width: 500px;
+  border-radius: 5px;
+  margin: inherit;
+}
+
+#barra3{
+  border: 10px solid;
+  color: rgb(222, 47, 12);
+  width: 100px;
+  border-radius: 5px;
+  margin: inherit;
+}
+
+#opzioni{
+  margin-left: 150px;
+  color: white;
+}
+
+input[type="checkbox"]{
+  margin-top: 20px;
+}
+
+.size{
+  font-size: 18px;
+}
+
+.freccia:before{
+  content: "\21A6";
+}
+
+.totale{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin-top: 30px;
+  padding-top: 1px;
+  padding-bottom: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
